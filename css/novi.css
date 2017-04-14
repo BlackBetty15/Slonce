@@ -1,0 +1,442 @@
+/*fontovi*/
+
+@font-face {
+    font-family: SlonceFont;
+    src: url(../fonts/montez/Montez-Regular_gdi.woff);
+    src: url(../fonts/montez/Montez-Regular_gdi.ttf);
+    src: url(../fonts/montez/Montez-Regular_gdi.svg);
+    src: url(../fonts/montez/Montez-Regular_gdi.eot);
+    src: url(../fonts/montez/Montez-Regular_gdi.otf);
+
+}
+
+/*body*/
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #F7E4D9;
+    background-image: url(../slike/food.png);
+    background-repeat: repeat;
+}
+
+
+
+
+/*navbar-ceo*/
+.navbar-default {
+
+background-color: #FFE5D9;
+border-color: transparent;
+font-family: SlonceFont;
+}
+.navbar-default .navbar-nav>li>a{
+
+
+	color: black;
+	font-size: 24px;
+	padding-top: 44px;
+
+
+}
+/*hover za default navbar*/
+.navbar-default .navbar-nav>li>a:hover{ 
+
+
+	color: #AD054E;
+	font-family: SlonceFont;
+
+}
+/*Početna navbar*/
+.navbar-default .navbar-brand {
+
+	color: black;
+	font-size: 24px;
+}
+.navbar-default .navbar-brand:hover {
+
+	color: #AD054E;
+	font-size: 24px;
+	padding-top: 44px;
+
+}
+/*Hover za dropdown*/
+.dropdown-menu>li>a:hover {
+    color: #AD054E;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+/*dropdown*/
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: black;
+    white-space: nowrap;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+}
+.dropdown-menu>li>a:hover {
+	color: #AD054E;
+	}
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color:#FFE5D9;
+    border-color: transparent;
+}
+/*Navbar za responsive dropdown*/
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: black;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #AD054E;
+}
+/*logo*/
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+a:focus, a:hover {
+    color: #AD054E;
+    text-decoration: none;
+}
+
+.h1, h1 {
+    font-size: 60px;
+    color: black;
+   
+    text-decoration:none;
+    padding-left: 10px;
+}
+.h1:hover, h1:hover{
+    color: #AD054E;
+}
+/*Slajderi*/
+.slajder{
+	font-family: SlonceFont;
+	font-size: 25px;
+    padding-bottom:130px; 
+}
+.slprom{
+    font-family: SlonceFont;
+    font-size: 35px;
+
+}
+
+
+/*Thumbnailovi*/
+
+
+.thumbnail{
+    background-color: #F7E4D9;
+    border-color: transparent;
+}
+/*buttoni*/
+.btn-primary {
+    color: #fff;
+    background-color: #773344;
+        border-color: #773344;
+
+}
+.btn-info {
+    color: #fff;
+    background-color: #773344;
+    border-color: #773344;
+}
+/*.container{
+    background-color: #f1e8e3;
+}
+*/
+/*footer*/
+.footer{
+border-color: black;
+width: auto;
+background-color: #773344;
+font-family: SlonceFont;
+color: white;
+font-size: 18px;
+padding-bottom: 20px;
+
+
+}
+
+/*kraj stranice*/
+.copy{
+    font-family: SlonceFont;
+    background-color: #F7E4D9;
+    color: black;
+    font-size: 20px;
+    width: auto;
+   text-align: center;
+
+}
+/*jumbatron*/
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+    background-color: #F7E4D9;
+}
+
+
+
+
+
+element.style {
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 200;
+}
+.h2jumb{
+    font-size: 40px;
+}
+.h3thumb{
+font-size: 30px;
+
+text-align: center;
+
+}
+.info{
+
+font-size: 15px;
+}
+.btn{
+font-size: 24px;
+
+}
+.btn-info:hover{
+    background-color: #773344;
+    border-style: none;
+}
+.fota {
+    color: white;
+    text-decoration:none;
+}
+.fota:hover{
+    color: #F7E4D9;
+} 
+.
+.btn:hover {
+    color: #fff;
+    background-color: #773344;
+    border-color: #773344;
+}
+.btn-primary:hover{
+
+    color: #fff;
+    background-color: #773344;
+    border-color: transparent;
+
+}
+.btn-default{
+    font-size: 18px;
+}
+.btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+
+}
+.kontakt{
+    background-color: #F7E4D9;
+   
+ 
+}
+.naslovk
+{
+    font-size: 30px;
+}
+.form-group{
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+label{
+    font-size: 20px;
+}
+.btn-default{
+   background-color:#773344;
+       border-color: #FFE5D9;
+       color: white;
+
+}
+.adrese{
+    font-size: 17px;
+    background-color:#F7E4D9;
+
+}
+.izlazna{
+    font-size: 25px;
+}
+.izlazi{
+    font-family: SlonceFont;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+.izlazi:hover{
+    color: black;
+}
+.img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ad054e;
+    border-radius: 9px;
+    }
+.naslov{
+    font-size: 45px;
+  
+}
+.biografija{
+   
+    font-size: 19px;
+}
+.onama{
+    background-color: #F7E4D9;
+}
+.linkonama{
+    text-decoration: underline;
+    color: #AD054E;
+}
+.srce{
+    color: #AD054E;
+
+
+}
+.mapa{
+
+    font-size: 20px;
+    background-color: #F7E4D9;
+    color: black;
+    padding-left: 30px;
+
+}
+.mapa:hover{
+    color: #AD054E;
+}
+.mapakon{
+    
+   background-color: #F7E4D9;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.mapah{
+    font-size: 45px;
+    
+    background-color: #F7E4D9;
+    padding-bottom: 20px;
+}
+.galerija{
+    background-color: #F7E4D9;
+    font-size: 27px;
+   
+}
+.torte{
+   
+    font-size: 45px;
+    text-align: center;
+    background-color: #F7E4D9;
+}
+.3hsvadba{
+    font-size: 30px;
+
+
+}
+.lik{ 
+    font-size: 20px;
+    background-color: #F7E4D9;
+    color: black;
+    padding-left: 30px;
+
+}
+.list-group{
+    font-size: 20px;
+   
+    border-style: none;
+    background-color: #F7E4D9;
+}
+a.list-group-item, button.list-group-item {
+    color: black;
+    background-color: #F7E4D9;
+    border-color: transparent;
+}
+.odgovori{
+    font-size: 17px;
+   
+    background-color: #F7E4D9;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.page-header{
+    font-size: 30px;
+    
+    
+
+
+}
+.cont {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: #F7E4D9;
+}
+.txtlink
+{
+    font-size: 17px;
+
+    color: black;
+    color: #AD054E;
+    text-decoration: underline;
+}
+.porudzbina{
+ ;
+    font-size: 18px;
+}
+.contform{
+     padding-right: 90px;
+    padding-left: 90px;
+    margin-right: 60px;
+    margin-left: 60px;
+    background-color: #F7E4D9;
+
+}
+.izlaznap{
+    font-size: 25px;
+   
+    text-align: center;
+}
+.svadbenet{
+    padding-left: 120px;
+    padding-right: 30px;
+    text-align: center;
+}
+.dugmence{
+    padding-left: 230px;
+}
+.cenovnik{
+    background-color: #F7E4D9;
+    color: black;
+ 
+    font-size: 20px;
+}
+.mejl{
+    text-decoration: none;
+    color: #AD054E;
+}
+.mejl:hover{
+    color: black;
+}
